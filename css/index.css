@@ -117,7 +117,7 @@
     height: 0;
     position: absolute;
     background-color: rgb(255, 255, 255);
-    top: 82px;
+    top: 78px;
     left: 0px;
     border-radius: 4px 4px 0px 0px;
     box-shadow: 0px 1px 7px rgba(117, 105, 0, 0.3);
@@ -125,6 +125,10 @@
     opacity: 0;
     visibility: hidden;
     transition: height 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.nav-fixed .white-nav .nav-top li .nav li a {
+    font-size: 13px;
 }
 
 .nav-fixed .white-nav .nav-top li .nav-big li:hover {
@@ -137,7 +141,7 @@
 
 /* 显示子菜单 */
 .nav-fixed .white-nav .nav-top li:hover .nav {
-    height: 80px;
+    height: auto;
     opacity: 1;
     visibility: visible;
 }
@@ -161,6 +165,7 @@
 
 .nav-fixed .white-nav ul li .nav :first-child {
     margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .nav-fixed .white-nav .nav-top li a {
@@ -421,4 +426,40 @@ input[type="search"]::-webkit-search-cancel-button {
 .slides:hover .right {
     opacity: 1;
     visibility: visible;
+}
+
+.show-box {
+    width: 100%;
+    height: 225px;
+    background-color: rgb(255, 255, 255);
+}
+
+.show-list .icon {
+    width: 280px;
+    height: 168px;
+}
+.show-list .icon img {
+    position: relative;
+    left: 104px;
+    top: 40px;
+}
+
+.show-list .icon h2 {
+    text-align: center;
+    margin-top: 50px;
+    top: 50px;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.show-list .icon p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(102, 102, 102);
+}
+
+.show-list {
+    display: flex;
+    justify-content: space-around;
 }
