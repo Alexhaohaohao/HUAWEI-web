@@ -462,4 +462,5 @@ input[type="search"]::-webkit-search-cancel-button {
 .show-list {
     display: flex;
     justify-content: space-around;
+    flex-wrap: nowrap;
 }
