@@ -320,7 +320,7 @@ input[type="search"]::-webkit-search-cancel-button {
     justify-content: space-around;
 }
 
-.backgrand{
+.backgrand {
     padding-top: 50px;
 }
 
@@ -339,7 +339,7 @@ input[type="search"]::-webkit-search-cancel-button {
 
 }
 
-.box-list .icon a{
+.box-list .icon a {
     position: relative;
     left: 85px;
     top: 10px;
@@ -375,9 +375,9 @@ input[type="search"]::-webkit-search-cancel-button {
     object-fit: cover;
 }
 
-#slide1:checked ~ .slide1,
-#slide2:checked ~ .slide2,
-#slide3:checked ~ .slide3 {
+#slide1:checked~.slide1,
+#slide2:checked~.slide2,
+#slide3:checked~.slide3 {
     opacity: 1;
 }
 
@@ -388,19 +388,37 @@ input[type="search"]::-webkit-search-cancel-button {
     transform: translateX(-50%);
 }
 
-.nav {
-    width: 15px;
-    height: 15px;
-    border: 2px solid #fff;
-    background-color: transparent;
-    border-radius: 50%;
-    cursor: pointer;
-    margin: 0 5px;
-    transition: background-color 0.3s;
+.slides .left {
+    position: absolute;
+    left: 10px;
+    height: 50px;
+    width: 30px;
+    top: 200px;
+    color: rgb(114, 113, 113);
+    line-height: 50px;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-#slide1:checked ~ .nav1,
-#slide2:checked ~ .nav2,
-#slide3:checked ~ .nav3 {
-    background-color: #fff;
+.slides .right {
+    font-size: 10px;
+    position: absolute;
+    right: 10px;
+    height: 50px;
+    width: 30px;
+    top: 200px;
+    color: rgb(51, 51, 51);
+    line-height: 50px;
+    text-align: right;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.slides:hover .left,
+.slides:hover .right {
+    opacity: 1;
+    visibility: visible;
 }
