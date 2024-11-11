@@ -267,7 +267,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .content {
     position: absolute;
     bottom: 0;
-    z-index: 999;
+    z-index: 99;
     width: 100%;
 }
 
@@ -530,3 +530,48 @@ input[type="search"]::-webkit-search-cancel-button {
     right: 0px;
 }
 
+.youdian{
+    width: 100%;
+    height: 395px;
+    background-color: rgb(255, 255, 255);
+}
+
+.youdian h1{
+    color: #333;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 0;
+    width: 100%;
+    font-size: 28px;
+    padding-top: 20px;
+}
+.youdian .you-item-list{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.youdian .you-item-list .you-icon{
+    height: 300px;
+    width: 234px;
+}
+
+.youdian .you-item-list .you-icon img{
+    position: relative;
+    left: 84px;
+    top: 10px;
+}
+.youdian .you-item-list .you-icon h2{
+    text-align: center;
+    margin-top: 30px;
+    top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.youdian .you-item-list .you-icon p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(102, 102, 102);
+}
