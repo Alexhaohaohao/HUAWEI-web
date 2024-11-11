@@ -1,0 +1,156 @@
+{
+  "id": "4741111",
+  "name": "huawei",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "77156",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "109753",
+      "name": "left",
+      "font_class": "left",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "109779",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "688062",
+      "name": "地球 全球",
+      "font_class": "diqiuquanqiu",
+      "unicode": "e76c",
+      "unicode_decimal": 59244
+    },
+    {
+      "icon_id": "1010173",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "1235390",
+      "name": "小喇叭",
+      "font_class": "xiaolaba",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "1727435",
+      "name": "211铃铛",
+      "font_class": "lingdang",
+      "unicode": "e8c0",
+      "unicode_decimal": 59584
+    },
+    {
+      "icon_id": "2105448",
+      "name": "圆圈箭头右",
+      "font_class": "roundArrRight-stroke",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "4937000",
+      "name": "github-fill",
+      "font_class": "github-fill",
+      "unicode": "e885",
+      "unicode_decimal": 59525
+    },
+    {
+      "icon_id": "6556877",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "6900973",
+      "name": "pdf",
+      "font_class": "pdf",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "7339837",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "9989384",
+      "name": "三横",
+      "font_class": "sanheng",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "10707234",
+      "name": "箭头 下 down",
+      "font_class": "jiantouxia",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "10841487",
+      "name": "ins",
+      "font_class": "ins",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "26132191",
+      "name": "箭头左",
+      "font_class": "CZ_001",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "26132291",
+      "name": "箭头右",
+      "font_class": "CZ_003",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "39249084",
+      "name": "meta-line",
+      "font_class": "meta-line",
+      "unicode": "eac0",
+      "unicode_decimal": 60096
+    },
+    {
+      "icon_id": "40402530",
+      "name": "推特",
+      "font_class": "tuite",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "41725537",
+      "name": "地球",
+      "font_class": "diqiu",
+      "unicode": "e7b1",
+      "unicode_decimal": 59313
+    },
+    {
+      "icon_id": "41902557",
+      "name": "眼睛关闭",
+      "font_class": "yanjingguanbi",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    }
+  ]
+}
