@@ -472,7 +472,7 @@ input[type="search"]::-webkit-search-cancel-button {
     background-color: rgb(247, 248, 250);
 }
 
-.video-box .w{
+.video-box .w {
     position: relative;
 }
 
@@ -487,13 +487,13 @@ input[type="search"]::-webkit-search-cancel-button {
     padding-top: 20px;
 }
 
-.video-box .left{
+.video-box .left {
     width: 550px;
     height: 341px;
     position: relative;
 }
 
-.video-box .left h3{
+.video-box .left h3 {
     position: absolute;
     left: 60px;
     top: 2px;
@@ -501,7 +501,7 @@ input[type="search"]::-webkit-search-cancel-button {
     color: black;
 }
 
-.video-box .left p{
+.video-box .left p {
     position: absolute;
     left: 0px;
     top: 70px;
@@ -509,8 +509,8 @@ input[type="search"]::-webkit-search-cancel-button {
     color: rgb(102, 102, 102);
 }
 
-.video-box .left a{
-    background-color:rgb(199, 0, 11);
+.video-box .left a {
+    background-color: rgb(199, 0, 11);
     padding: 5px;
     border-radius: 5px;
     position: absolute;
@@ -519,24 +519,25 @@ input[type="search"]::-webkit-search-cancel-button {
     font-size: 14px;
     color: rgb(255, 255, 255);
 }
-.video-box .left .more{
+
+.video-box .left .more {
     left: 0px;
 }
 
-.video-box .right{
+.video-box .right {
     position: absolute;
     width: 600px;
     top: 90px;
     right: 0px;
 }
 
-.youdian{
+.youdian {
     width: 100%;
     height: 395px;
     background-color: rgb(255, 255, 255);
 }
 
-.youdian h1{
+.youdian h1 {
     color: #333;
     font-size: 28px;
     font-weight: 700;
@@ -546,32 +547,106 @@ input[type="search"]::-webkit-search-cancel-button {
     font-size: 28px;
     padding-top: 20px;
 }
-.youdian .you-item-list{
+
+.youdian .you-item-list {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
 
-.youdian .you-item-list .you-icon{
+.youdian .you-item-list .you-icon {
     height: 300px;
     width: 234px;
 }
 
-.youdian .you-item-list .you-icon img{
+.youdian .you-item-list .you-icon img {
     position: relative;
     left: 84px;
     top: 10px;
 }
-.youdian .you-item-list .you-icon h2{
+
+.youdian .you-item-list .you-icon h2 {
     text-align: center;
     margin-top: 30px;
     top: 50px;
     font-size: 20px;
     font-weight: 700;
 }
-.youdian .you-item-list .you-icon p{
+
+.youdian .you-item-list .you-icon p {
     font-size: 14px;
     text-align: center;
     margin-top: 5px;
     color: rgb(102, 102, 102);
+}
+
+.spport {
+    width: 100%;
+    height: 407px;
+    background-color: rgb(247, 248, 250);
+}
+
+.spport h1 {
+    color: #333;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 0;
+    width: 100%;
+    font-size: 28px;
+    padding: 28px;
+}
+
+.spport .icon {
+    width: 300px;
+    height: 205px;
+}
+
+.icon-list3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spport .icon-list3 .box {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #a50000, #ff8f8fab);
+    margin: auto;
+}
+
+.spport .icon-list3 .box span {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+    margin-left: 15px;
+}
+
+.spport .icon-list3 h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.spport .icon-list3 p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.spport .more{
+    width: fit-content;
+    margin: 26px auto 0;
+    padding: 11px 30px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #707070;
+}
+
+.spport .more:hover {
+    background-color: rgb(184, 39, 40);
+    color: white;
 }
