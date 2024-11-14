@@ -329,6 +329,7 @@ input[type="search"]::-webkit-search-cancel-button {
     padding-top: 50px;
 }
 
+
 .box-list .icon img {
     position: relative;
     left: 70px;
@@ -337,7 +338,7 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .box-list .icon h1 {
     position: relative;
-    left: 70px;
+    left: 0px;
     top: 10px;
     font-size: 20px;
     font-weight: 700;
@@ -537,7 +538,7 @@ input[type="search"]::-webkit-search-cancel-button {
     background-color: rgb(255, 255, 255);
 }
 
-.youdian h1 {
+.w h1 {
     color: #333;
     font-size: 28px;
     font-weight: 700;
@@ -586,15 +587,8 @@ input[type="search"]::-webkit-search-cancel-button {
     background-color: rgb(247, 248, 250);
 }
 
-.spport h1 {
-    color: #333;
-    font-size: 28px;
-    font-weight: 700;
-    text-align: center;
-    margin: 0px 0;
-    width: 100%;
-    font-size: 28px;
-    padding: 28px;
+.spport .icon-list3{
+    margin-top: 50px;
 }
 
 .spport .icon {
@@ -623,7 +617,7 @@ input[type="search"]::-webkit-search-cancel-button {
     margin-left: 15px;
 }
 
-.spport .icon-list3 h3{
+.spport .icon-list3 h3 {
     font-size: 20px;
     text-align: center;
     margin-top: 15px;
@@ -637,16 +631,88 @@ input[type="search"]::-webkit-search-cancel-button {
     margin-right: 50px;
 }
 
-.spport .more{
-    width: fit-content;
-    margin: 26px auto 0;
-    padding: 11px 30px;
+.spport .more {
+    left: 50%; transform: translateX(-50%);
+    position: absolute;
+    left: calc(50%);
     border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
     box-sizing: border-box;
     border: 1px solid #707070;
+
 }
 
 .spport .more:hover {
     background-color: rgb(184, 39, 40);
     color: white;
+}
+
+.examble {
+    width: 100%;
+    height: 1151px;
+}
+
+.examble .examble-top{
+    height: 130px;
+}
+
+.examble h1 {
+    height: 110px;
+}
+
+.examble .card-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.examble .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 491px;
+    width: 403px;
+}
+
+.examble .left-1 {
+    width: 776px;
+    height: 491px;
+    background-color: rgb(51, 51, 51);
+}
+
+
+.examble .right-1 {
+    width: 403px;
+    height: 235px;
+    background-color: rgb(159, 113, 113);
+}
+
+.examble .right-2 {
+    width: 403px;
+    height: 236px;
+    background-color: rgb(99, 30, 30);
+}
+
+.examble .card {
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.examble .card-list .right-1 img{
+    position: relative;
+    top: -40px;
+}
+
+.examble .card-list .card img {
+    width: 100%;
+}
+
+.examble .examble-top p{
+    text-align: ;
 }
