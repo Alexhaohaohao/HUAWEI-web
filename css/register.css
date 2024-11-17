@@ -1,0 +1,132 @@
+.top {
+    width: 100%;
+    height: 38.39px;
+    background-color: rgb(241, 241, 241);
+    line-height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w {
+    width: 768px;
+    margin: 0 auto;
+
+}
+
+.top img {
+    height: 19.2px;
+}
+
+.float {
+    float: left;
+}
+
+.left {
+    margin-top: 32px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column
+}
+
+.left a {
+    width: 166.417px;
+    height: 20.792px;
+    padding: 12.8px;
+    border-radius: 4px;
+}
+
+.left span {
+    margin-right: 10px;
+}
+
+.left :nth-child(1) {
+    background-color: rgb(241, 241, 241);
+}
+
+.left a:hover {
+    background-color: rgb(229, 242, 255);
+}
+
+.main {
+    width: 793.594px;
+    height: 617.672px;
+    margin-top: 28px;
+}
+
+.right {
+    height: 527.283px;
+    width: 352px;
+    padding: 0px 220.8px;
+    padding-top: 38.4px;
+    padding-bottom: 52px;
+}
+
+.right .title {
+    margin-bottom: 24px;
+}
+
+.right h1 {
+    text-align: center;
+    font-size: 25.6px;
+    font-weight: 500;
+    font-weight: normal;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.right p {
+    text-align: center;
+}
+
+.diqu p {
+    text-align: left;
+    line-height: 37px;
+}
+
+.diqu select{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    font-size: 13px;
+    border: none;
+    width: 76px;
+    background-color: rgb(242, 242, 242);
+}
+
+.right .tologin a {
+    color: rgb(100, 60, 243);
+}
+
+.right .in {
+    width: 324px;
+    height: 37px;
+    padding: 0px 12.8px;
+    border: 1px solid rgb(242, 242, 242);
+    background-color: rgb(242, 242, 242);
+    border-radius: 5px;
+}
+
+.right form {
+    position: relative;
+    height: 527px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 24px;
+}
+
+.province{
+    border: none;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    font-size: 13px;
+    background-color: rgb(242, 242, 242);
+    border-right: 1px solid rgb(170, 161, 161);
+}
+
+
+
+

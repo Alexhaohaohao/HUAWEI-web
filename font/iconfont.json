@@ -6,6 +6,34 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "4905551",
+      "name": "手机",
+      "font_class": "shouji1",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "8575317",
+      "name": "手机",
+      "font_class": "shouji2",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "4251773",
+      "name": "邮件",
+      "font_class": "youjian",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "5017552",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
       "icon_id": "34051619",
       "name": "不可看密码（眼睛）",
       "font_class": "a-bukekanmimayanjing",
