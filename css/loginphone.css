@@ -1,0 +1,36 @@
+select {
+    width: 120px;
+    height: 40px;
+    border: none;
+    padding-left: 20px;
+    border-right:1px solid #ccc;
+    position: absolute;
+    top: 225px;
+    left: 50px;
+}
+
+.big .login-box .box form input{
+    width: 412px;
+    height: 48px;
+    padding: 0px 16px;
+    border: 1px solid #d9d9d9;
+}
+
+.big .login-box .box form input:focus{
+    border: 1px solid #007aff;
+}
+
+.big .login-box .box form :nth-child(2){
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 300px;
+    padding-left: 130px;
+}
+
+.ma{
+    position: absolute;
+    right: 60px;
+    top: 306px;
+    color: rgb(227, 231, 247);
+}
+

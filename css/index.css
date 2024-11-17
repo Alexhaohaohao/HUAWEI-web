@@ -91,6 +91,10 @@
     margin-left: 20px;
 }
 
+.nav-fixed .black-nav .right :nth-child(2){
+    color: rgb(255, 255, 255);
+}
+
 .nav-fixed .black-nav .right li a {
     color: rgb(255, 255, 255);
 }
@@ -1024,7 +1028,7 @@ li {
 
 .fix-box-lianxi{
     position: fixed;
-    bottom: 150px;
+    bottom: 70px;
     right: 10px;
     text-align: center;
     width: 100px;

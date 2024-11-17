@@ -1,0 +1,30 @@
+p {
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+h1{
+    width: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.nav-fixed a{
+    width: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.video-box p{
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nav-fixed a{
+    z-index: 999;
+}
+.paopao p{
+    width: 10px;
+}

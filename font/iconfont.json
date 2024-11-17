@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "34051619",
+      "name": "不可看密码（眼睛）",
+      "font_class": "a-bukekanmimayanjing",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
       "icon_id": "6706858",
       "name": "zcpt-培训点播管理",
       "font_class": "zcpt-peixundianboguanli",
