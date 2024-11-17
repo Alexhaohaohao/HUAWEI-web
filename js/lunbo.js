@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         slides[index].style.opacity = 1;
         radios[index].checked = true;
     }
-    setInterval(autoPlay, 5000);
+    setInterval(autoPlay, 6000);
 
     document.querySelector('.slides .left-arrow').addEventListener('click', () => {
         currentIndex = (currentIndex - 1 + slides.length) % slides.length;

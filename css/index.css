@@ -470,7 +470,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .video-box {
     height: 478px;
     width: 100%;
-    background-color: rgb(247, 248, 250);
+    background-color: rgb(rgb(255, 253, 253); );
 }
 
 .video-box .w {
@@ -492,6 +492,7 @@ input[type="search"]::-webkit-search-cancel-button {
     width: 550px;
     height: 341px;
     position: relative;
+    top: 30px;
 }
 
 .video-box .left h3 {
@@ -587,7 +588,7 @@ input[type="search"]::-webkit-search-cancel-button {
     background-color: rgb(247, 248, 250);
 }
 
-.spport .icon-list3{
+.spport .icon-list3 {
     margin-top: 50px;
 }
 
@@ -632,17 +633,43 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .spport .more {
-    left: 50%; transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-50%);
     position: absolute;
-    left: calc(50%);
     border-radius: 4px;
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 50px;
     text-align: center;
-    line-height: 30px;
+    line-height: 50px;
     box-sizing: border-box;
     border: 1px solid #707070;
+    font-size: 18px;
+}
 
+.examble .toplist {
+    position: relative;
+}
+
+.examble .toplist p {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 14px;
+}
+
+.examble .toplist a {
+    font-size: 20px;
+    color: rgb(199, 0, 11);
+    position: absolute;
+    bottom: -55px;
+    right: 0px;
+}
+
+.hengang {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 35px;
+    height: 1PX;
+    border-bottom: 3px solid rgb(131, 0, 0);
 }
 
 .spport .more:hover {
@@ -650,17 +677,10 @@ input[type="search"]::-webkit-search-cancel-button {
     color: white;
 }
 
-.examble {
-    width: 100%;
-    height: 1151px;
-}
-
-.examble .examble-top{
-    height: 130px;
-}
 
 .examble h1 {
-    height: 110px;
+    margin-top: 20px;
+    height: 50px;
 }
 
 .examble .card-list {
@@ -698,21 +718,233 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .examble .card {
-    border-radius: 20px;
+    position: relative;
+    border-radius: 10px;
     overflow: hidden;
     position: relative;
+    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.516);
+    background-color: rgba(0, 0, 0, 0.397);
 }
 
 
-.examble .card-list .right-1 img{
+
+.examble .card-list .card img {
+    position: absolute;
+    width: 100%;
+}
+
+.examble .card-list .card .card-text {
+    bottom: 20px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    color: rgb(255, 253, 253);
+    height: 60px;
+    line-height: 60px;
+}
+
+
+.examble .card-list .card .card-text p {
     position: relative;
-    top: -40px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+    top: 20px;
+    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.examble .card-list .card .card-text span {
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    z-index: 99;
+    bottom: -36px;
+    margin-left: 20px;
+}
+
+.examble .card-list .card {
+    position: relative;
+    overflow: hidden;
 }
 
 .examble .card-list .card img {
     width: 100%;
+    position: absolute;
+    z-index: 0;
+    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    left: 0;
 }
 
-.examble .examble-top p{
-    text-align: ;
+.examble .card-list .left-1 img {
+    position: absolute;
+    top: -20px;
+}
+
+.examble .card-list .right-1 img {
+    position: absolute;
+    top: -90px;
+}
+
+.zhezhao {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 16, 16, 0.142);
+}
+
+.examble .card-list .card:hover img {
+    transform: scale(1.1);
+    /* 靠近卡片进行放大 */
+}
+
+
+.examble .card-list .card .card-text p {
+    position: relative;
+    margin-left: 20px;
+    top: 10px;
+    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.examble .card-list .card .card-text span {
+    display: block;
+    /* 让 span 在新行显示 */
+    transform: translateY(20px);
+    /* 初始位置向下偏移以隐藏 */
+    opacity: 0;
+    /* 初始隐藏 */
+    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.examble .card-list .card:hover .card-text p {
+    transform: translateY(-20px);
+    /* 上移 p 标签 */
+}
+
+.examble .card-list .card:hover .card-text span {
+    transform: translateY(-20px);
+    /* 上移 span 标签，向上展示 */
+    opacity: 1;
+    /* 显示 span */
+}
+
+
+.examble .card-list .right p {
+    width: 370px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hengang2 {
+    margin: 40px auto;
+    width: 65px;
+    height: 1PX;
+    border-bottom: 3px solid rgb(131, 0, 0);
+}
+
+.card-list-2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 100%;
+}
+
+.examble .last-1 {
+    width: 585px;
+    height: 335px;
+    background-color: rgb(51, 51, 51);
+}
+
+.examble .last-2 {
+    width: 585px;
+    height: 335px;
+    background-color: rgb(51, 51, 51);
+}
+
+.examble .card-fix {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.516);
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+
+.examble .card-list .card-fix:hover img {
+    transform: scale(1.1);
+    /* 靠近卡片进行放大 */
+}
+
+
+.examble .card-list .card-fix :hover .card-text p {
+    transform: translateY(0px);
+}
+
+.examble .card-list .last-1 img {
+    position: absolute;
+    width: 110%;
+    width: 110%;
+    top: 0px;
+}
+
+.examble .card-list .last-2 img {
+    position: absolute;
+    width: 110%;
+    width: 110%;
+    top: 0px;
+}
+
+.joinus {
+    width: 100%;
+    height: 373px;
+    background-color: rgb(247, 248, 250);
+}
+
+.joinus .top {
+    padding-top: 40px;
+    height: 37px;
+    line-height: 37px;
+    margin: 0px 0px 48px;
+}
+
+.joinus .boxs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.joinus .join-box {
+    position: relative;
+    height: 173px;
+    width: 393px;
+    border: 1px solid #ccc;
+}
+
+.joinus .join-box h1 {
+    margin-left: 20px;
+    text-align: left;
+    font-size: 26px;
+    color: #858585;
+}
+
+
+.joinus .join-box p {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.joinus .join-box a {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    font-size: 14px;
+
+}
+.joinus .join-box a span{
+    margin-left: 10px;
+    font-size: 20px;
 }
