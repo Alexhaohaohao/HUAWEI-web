@@ -1,0 +1,37 @@
+.bigimg {
+    height: 420px;
+    background-image: url(../img/backhuoban.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bigimg .mulu a,
+span {
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.bigimg .mulu :nth-child(3) {
+    font-weight: 550;
+}
+
+.mulu {
+    height: 20px;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.bigimg h1 {
+    color: aliceblue;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.find {
+height: 460px;
+width: 100%;
+}

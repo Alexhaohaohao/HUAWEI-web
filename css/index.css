@@ -1,3 +1,4 @@
+
 .w {
     width: 1200px;
     margin: auto;
@@ -33,8 +34,8 @@
     border-radius: 5px;
 }
 
-.nav-fixed .black-nav .right .paopao p{
-    color:white
+.nav-fixed .black-nav .right .paopao p {
+    color: white
 }
 
 .nav-fixed .black-nav .right :nth-child(1) {
@@ -91,7 +92,7 @@
     margin-left: 20px;
 }
 
-.nav-fixed .black-nav .right :nth-child(2){
+.nav-fixed .black-nav .right :nth-child(2) {
     color: rgb(255, 255, 255);
 }
 
@@ -1012,6 +1013,7 @@ li {
     text-decoration: underline;
     color: rgb(199, 0, 11);
 }
+
 .footer .footer-bottom .right {
     float: right;
 }
@@ -1026,7 +1028,7 @@ li {
     color: rgb(205, 11, 11);
 }
 
-.fix-box-lianxi{
+.fix-box-lianxi {
     position: fixed;
     bottom: 70px;
     right: 10px;
@@ -1040,6 +1042,6 @@ li {
     color: white;
 }
 
-.fix-box-lianxi:hover{
+.fix-box-lianxi:hover {
     color: white;
 }
