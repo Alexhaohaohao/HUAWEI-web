@@ -32,6 +32,13 @@ span {
 }
 
 .find {
-height: 460px;
-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    height: 460px;
+    width: 100%;
+}
+
+.input-box {
+    width: 428px;
+    height: 30px;
 }
