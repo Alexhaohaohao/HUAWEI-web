@@ -20,3 +20,7 @@
     position: relative;
     bottom: -10px ;
 }
+
+.text h2{
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+.imgbox{
+    width: 1200px;
+    margin: auto;
+    height: 340px;
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+}
+
+.article{
+    background-color: white;
+    height: 2351px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.footer{
+    background-color: white;
+}
+
