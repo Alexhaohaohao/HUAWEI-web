@@ -1,0 +1,81 @@
+
+.hengang3 {
+    margin: 40px auto;
+    width: 65px;
+    height: 1PX;
+    border-bottom: 3px solid rgb(131, 0, 0);
+}
+
+.card-list-2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 340px;
+    width: 100%;
+}
+
+
+.more-list .last-1 {
+    width: 585px;
+    height: 335px;
+    background-color: rgb(51, 51, 51);
+}
+
+.more-list .last-2 {
+    width: 585px;
+    height: 335px;
+    background-color: rgb(51, 51, 51);
+}
+
+.more-list .card-fix {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.516);
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+
+.more-list .card-list .card-fix:hover img {
+    transform: scale(1.1);
+    /* 靠近卡片进行放大 */
+}
+
+
+.more-list .card-list .card-fix :hover .card-text p {
+    transform: translateY(0px);
+}
+
+
+.more-list .last-1 {
+    width: 385px;
+    height: 335px;
+    background-color: rgb(51, 51, 51);
+}
+
+.more-list .last-2 {
+    width: 385px;
+    height: 335px;
+    background-color: rgb(51, 51, 51);
+}
+
+.more-list .last-3 {
+    width: 385px;
+    height: 335px;
+    background-color: rgb(51, 51, 51);
+}
+
+
+.more-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.moreread{
+    margin: 30px auto;
+    font-size: 20px;
+    color: red;
+}
