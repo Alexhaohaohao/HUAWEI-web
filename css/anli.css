@@ -61,12 +61,18 @@
     background-color: rgb(51, 51, 51);
 }
 
+.more-list .last-2 img{
+    height: 100%;
+}
+
 .more-list .last-3 {
     width: 385px;
     height: 335px;
     background-color: rgb(51, 51, 51);
 }
-
+.more-list .last-3 img{
+    height: 100%;
+}
 
 .more-list{
     display: flex;
