@@ -6,6 +6,41 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "11288728",
+      "name": "下载文件",
+      "font_class": "xiazaiwenjian",
+      "unicode": "e8f2",
+      "unicode_decimal": 59634
+    },
+    {
+      "icon_id": "12586802",
+      "name": "iOS",
+      "font_class": "iOS",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "33711677",
+      "name": "举报",
+      "font_class": "jubao",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "34453358",
+      "name": "人工客服",
+      "font_class": "rengongkefu",
+      "unicode": "e87c",
+      "unicode_decimal": 59516
+    },
+    {
+      "icon_id": "12134856",
+      "name": "更多",
+      "font_class": "ef-gengduo-chuizhi",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
       "icon_id": "4905551",
       "name": "手机",
       "font_class": "shouji1",

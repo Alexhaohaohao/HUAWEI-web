@@ -1,0 +1,22 @@
+.imgbox{
+    width: 1200px;
+    margin: auto;
+    height: 340px;
+    background-image: url(../img/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size:120%;
+    background-position: -240px -20px;
+}
+
+.article{
+    background-color: white;
+    height: 3951px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.f span{
+    position: relative;
+    bottom: -10px ;
+}
