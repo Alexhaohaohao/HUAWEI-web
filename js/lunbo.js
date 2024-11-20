@@ -26,4 +26,14 @@ document.addEventListener('DOMContentLoaded', function() {
         currentIndex = (currentIndex + 1) % slides.length;
         changeSlide(currentIndex);
     });
+
+    radios.forEach((radio, index) => {
+        radio.addEventListener('change', () => {
+            if (radio.checked) {
+                currentIndex = index;
+                changeSlide(currentIndex);
+            }
+        });
+    });
+
 });

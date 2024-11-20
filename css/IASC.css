@@ -24,7 +24,7 @@ span {
     padding-left: 10px;
 }
 
-.bigimg h1 {
+.bigimg .title {
     color: aliceblue;
     font-size: 30px;
     text-align: left;
@@ -32,13 +32,82 @@ span {
 }
 
 .find {
-    display: flex;
-    justify-content: flex-start;
-    height: 460px;
+    background-color: white;
+    padding: 30px;
+    height: 360px;
     width: 100%;
 }
 
 .input-box {
-    width: 428px;
+
+    width: 360px;
+    height: 70px;
+}
+
+
+.in {
+    width: 365px;
     height: 30px;
+    border-radius: 5px;
+    border-color: rgb(217, 217, 217);
+    padding-left: 10px;
+}
+
+.ming {
+    border: 1px solid rgb(217, 217, 217);
+    width: 353px;
+}
+
+
+.text span {
+    color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.btns{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 20px;
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.btns button{
+    width: 72px;
+    height: 28px;
+    margin-left: 8px;
+    border-radius: 2px;
+    
+}
+
+
+.btns :nth-child(1){
+    border:1px solid rgb(217, 217, 217);
+    color: rgb(189, 2, 2);
+}
+
+.btns :nth-child(2){
+    border: none;
+    background-color: rgb(192, 0, 0);
+    color: white;
+}
+
+.footer {
+    background-color: white;
+}
+
+.text{
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: rgb(247, 248, 250);
 }
