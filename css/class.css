@@ -1,0 +1,236 @@
+.mulu {
+    height: 18px;
+    padding: 10px;
+    background-color: rgb(247, 248, 250);
+}
+
+body{
+    background-color: rgb(247, 248, 250);
+}
+
+.class-boxlist .box {
+    width: 275px;
+    height: 250px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.class-boxlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.class-boxlist .box img {
+    width: 100%;
+}
+
+.header {
+    background-color: rgb(247, 248, 250);
+}
+
+.ul-box {
+    background-color: rgb(247, 248, 250);
+}
+
+.table-box {
+    background-color: rgb(247, 248, 250);
+}
+
+.header h1 {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 500;
+    width: 100px;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.header span {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.header {
+    padding-bottom: 20px;
+}
+
+.ul-box .list-top {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.ul-box .list-top li {
+    float: left;
+}
+
+.ul-box .list-top li a {
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: black;
+}
+
+.table-box {
+    height: 223px;
+}
+
+.table-box table tr {
+    height: 40px;
+    width: 700px;
+}
+
+.table-box table tr th {
+    width: 70px;
+    text-align: left;
+}
+
+.table-box table tr td {
+    width: 20px;
+}
+
+.table-box .form {
+    width: 400px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.ck {
+    padding-left: 10px;
+    line-height: 40px;
+}
+
+.ck input {
+    position: relative;
+    top: 2px;
+}
+
+.ck span{
+    margin-left:10px;
+}
+
+.ck button {
+    padding: 5px 10px;
+    border: none;
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+}
+
+.nav {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.nav ul {
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 40px;
+    color: black;
+}
+
+.card{
+    position: relative;
+    width: 265px;
+    height: 243px;
+    border: 1px solid #f0f0f0;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+    transition: cubic-bezier(0.075, 0.92, 0.165, 1) 2s;
+}
+
+.card:hover{
+    box-shadow: 1px 0px 10px #ccc;
+}
+
+.card:hover img{
+    transform: scale(1.1);
+}
+
+.card h2{
+    font-size: 14px;
+    font-weight: normal;
+}
+.card .box-text{
+    margin: 10px;
+}
+.card .box-text span{
+    position: absolute;
+    bottom: 5px;
+}
+
+.card .box-text :nth-child(2){
+    right: 10px;
+}
+
+.card .box-text :nth-child(2) .icon{
+right: 50px;
+bottom: -3px;
+}
+.class-boxlist{
+    margin-bottom: 40px;
+}
+
+.class-list{
+    background-color: white;
+}
+
+.footer{
+    background-color: white;
+}
+
+.yema{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    line-height: 100px;
+    font-size: 15px;
+}
+
+.yema ul li{
+    float: left;
+    margin-right: 20px;
+}
+
+.yema .page-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.yema .totle{
+    padding:  20px;
+
+}
+
+.yema input{
+    padding: 3px 10px;
+    margin: 0px 10px;
+    width: 40px;
+    text-align: center;
+}
+
+.yema select{
+    padding: 4px 10px;
+    margin: 0px 10px;
+}
+
