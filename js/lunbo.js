@@ -1,7 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     const slides = document.querySelectorAll('.slides .slide');
-    const radios = document.querySelectorAll('input[name="slider"]');
     let currentIndex = 0;
+
+    // 初始化第一个幻灯片的显示
+    slides[currentIndex].style.opacity = 1;
+
     function autoPlay() {
         currentIndex = (currentIndex + 1) % slides.length;
         changeSlide(currentIndex);
@@ -10,11 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
     function changeSlide(index) {
         slides.forEach((slide, i) => {
             slide.style.opacity = 0;
-            radios[i].checked = false;
         });
         slides[index].style.opacity = 1;
-        radios[index].checked = true;
     }
+
     setInterval(autoPlay, 6000);
 
     document.querySelector('.slides .left-arrow').addEventListener('click', () => {
@@ -26,14 +28,4 @@ document.addEventListener('DOMContentLoaded', function() {
         currentIndex = (currentIndex + 1) % slides.length;
         changeSlide(currentIndex);
     });
-
-    radios.forEach((radio, index) => {
-        radio.addEventListener('change', () => {
-            if (radio.checked) {
-                currentIndex = index;
-                changeSlide(currentIndex);
-            }
-        });
-    });
-
 });
