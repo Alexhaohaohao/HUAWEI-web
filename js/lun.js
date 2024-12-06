@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // 开始自动播放
-    timer = setInterval(autoPlay, 5000);
+    timer = setInterval(autoPlay, 6000);
 
     // 绑定左右箭头点击事件
     left.onclick = function () {
